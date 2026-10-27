@@ -18,7 +18,7 @@ The solution provides additional administrative resilience while ensuring that e
 
 ### Problem
 
-Prior to this project, the organization had no dedicated Microsoft Entra ID break-glass accounts.
+Prior to this project, the organization had no dedicated Microsoft Entra ID emergency access accounts.
 
 This introduced several risks:
 
@@ -37,11 +37,9 @@ Establish emergency administrative access and implement automated monitoring to 
 
 ### Emergency Access Accounts
 
-Established dedicated emergency access accounts within Microsoft Entra ID.
+Established dedicated emergency access accounts within Microsoft Entra ID utilizing FIDO2.
 
-Four designated emergency access identities are included in the monitoring configuration.
-
-These accounts provide an alternative administrative access mechanism when standard authentication or administrative access methods are unavailable.
+These accounts provide an alternative administrative access mechanism when standard authentication or administrative access methods are unavailable and are exempt from all conditional access.
 
 ![Emergency Access Accounts](images/01-emergency-access-accounts.png)
 
@@ -49,7 +47,7 @@ These accounts provide an alternative administrative access mechanism when stand
 
 ### Automated Sign-In Monitoring
 
-Configured an Azure Monitor log search alert to detect authentication activity involving the four emergency access accounts.
+Configured an Azure Monitor log search alert to detect authentication activity involving the emergency access accounts.
 
 The alert queries sign-in logs collected in a Log Analytics workspace.
 
