@@ -41,10 +41,6 @@ Established dedicated emergency access accounts within Microsoft Entra ID utiliz
 
 These accounts provide an alternative administrative access mechanism when standard authentication or administrative access methods are unavailable and are exempt from all conditional access.
 
-![Emergency Access Accounts](images/01-emergency-access-accounts.png)
-
-*Figure 1: Dedicated Microsoft Entra ID emergency access accounts.*
-
 ### Automated Sign-In Monitoring
 
 Configured an Azure Monitor log search alert to detect authentication activity involving the emergency access accounts.
@@ -66,7 +62,7 @@ The alert queries sign-in logs collected in a Log Analytics workspace.
 
 When any monitored account signs in, the alert triggers.
 
-![Azure Monitor Alert Rule](images/02-azure-monitor-alert-rule.png)
+![Azure Monitor Alert Rule](images/BG-SignIn-Alert.png)
 
 *Figure 2: Azure Monitor alert rule configured to detect emergency access account sign-ins.*
 
