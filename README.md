@@ -222,7 +222,7 @@ Potential enhancements include:
 
 All screenshots included in this repository are intended to be sanitized before publication.
 
-Sensitive information such as usernames, tenant identifiers, email addresses, subscription identifiers, and internal configuration details must be removed.
+Sensitive information such as usernames, tenant identifiers, email addresses, subscription identifiers, and internal configuration details are removed.
 
 This project documents security engineering activities without disclosing confidential production environment information.
 
