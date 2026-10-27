@@ -64,11 +64,7 @@ When any monitored account signs in, the alert triggers.
 
 ![Azure Monitor Alert Rule](BG-SignIn-Alert.png)
 
-*Figure 2: Azure Monitor alert rule configured to detect emergency access account sign-ins.*
-
-![Alert Condition](images/03-alert-condition.png)
-
-*Figure 3: Alert condition configured to trigger when sign-in activity is detected.*
+*Azure Monitor alert rule configured to detect emergency access account sign-ins.*
 
 ### Email Notifications
 
@@ -76,9 +72,6 @@ Created an Azure Monitor action group to deliver email notifications when emerge
 
 This allows the security team to respond to account usage without continuously reviewing authentication logs.
 
-![Azure Monitor Action Group](images/04-action-group.png)
-
-*Figure 4: Azure Monitor action group configured for email notifications.*
 
 ---
 
@@ -108,13 +101,11 @@ The authorized sign-in generated a **high-severity incident in Microsoft Defende
 
 The email notification was successfully received, confirming that the detection and notification workflow operated as expected.
 
-![Microsoft Defender Incident](images/05-defender-incident.png)
+![Azure Monitor Action Group](Email_alert.png)
 
-*Figure 5: Microsoft Defender incident generated following the authorized test sign-in.*
+![Azure Monitor Action Group](Alert_Title.png)
 
-![Alert Email Notification](images/06-alert-email.png)
-
-*Figure 6: Email notification confirming successful alert delivery.*
+![Azure Monitor Action Group](High_Severity.png)
 
 ---
 
