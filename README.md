@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-Identified and addressed a critical gap in the organization's identity security posture: the absence of dedicated Microsoft Entra ID emergency access (break-glass) accounts.
+Identified and addressed a critical gap in the organization's identity security posture: the absence of dedicated Microsoft Entra ID emergency access (break-glass) accounts. This was one part of a larger project to bring Privileged Identity Management to the organization.
 
 Implemented emergency access capabilities and automated monitoring to detect sign-ins involving these highly privileged accounts.
 
