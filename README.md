@@ -62,7 +62,7 @@ The alert queries sign-in logs collected in a Log Analytics workspace.
 
 When any monitored account signs in, the alert triggers.
 
-![Azure Monitor Alert Rule](images/BG-SignIn-Alert.png)
+![Azure Monitor Alert Rule](BG-SignIn-Alert.png)
 
 *Figure 2: Azure Monitor alert rule configured to detect emergency access account sign-ins.*
 
