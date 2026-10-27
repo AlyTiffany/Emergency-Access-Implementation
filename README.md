@@ -57,7 +57,6 @@ The alert queries sign-in logs collected in a Log Analytics workspace.
 |---|---|
 | Monitoring platform | Azure Monitor |
 | Data source | Log Analytics |
-| Accounts monitored | 4 |
 | Detection condition | Sign-in count greater than 0 |
 | Evaluation frequency | 15 minutes |
 | Alert rules | 1 |
@@ -65,9 +64,7 @@ The alert queries sign-in logs collected in a Log Analytics workspace.
 | Notification method | Email |
 | Incident management | Microsoft Defender |
 
-A single alert rule monitors all four accounts.
-
-When any monitored account signs in, the alert triggers without requiring separate alert rules for each identity.
+When any monitored account signs in, the alert triggers.
 
 ![Azure Monitor Alert Rule](images/02-azure-monitor-alert-rule.png)
 
@@ -100,7 +97,7 @@ The test verified the following:
 1. The emergency access account could successfully authenticate.
 2. Azure Monitor detected the sign-in.
 3. Microsoft Defender generated a security incident.
-4. The configured email notification was delivered.
+4. The configured email notification was delivered to all recipients.
 
 ### Test Results
 
